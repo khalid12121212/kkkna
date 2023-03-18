@@ -8,6 +8,12 @@ const PORT= 8080;
 app.use(express.json());
 app.use(cors());
 
+app.use("/", (req, res)=>{
+
+    res.json({message : "Hello g kia bat"});
+
+})
+
 app.post("/pay", async (req, res) => {
     try {
       const { name } = req.body;
