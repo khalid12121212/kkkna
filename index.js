@@ -10,7 +10,7 @@ app.use(cors());
 
 app.use("/", (req, res)=>{
 
-    res.json({message : "Hello g kia bat"});
+    res.json({message : "HIRA ITNI PYARI Q HO?"});
 
 })
 
